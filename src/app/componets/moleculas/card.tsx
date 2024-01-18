@@ -32,7 +32,7 @@ export default function Card({ value, textButton, textButtonTwo, textParrafo, im
         </Parrafo>
       </div>
 
-      <div className="flex flex-col lg:flex-row justify-center lg:justify-evenly w-full max-w-screen-xl mx-auto items-center p-5 gap-2">
+      <div className="flex flex-col md:flex-row justify-center lg:justify-evenly w-full max-w-screen-xl mx-auto items-center p-5 gap-2">
         <Button
         route={route[0].path}
           value={textButton}

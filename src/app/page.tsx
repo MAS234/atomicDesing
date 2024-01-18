@@ -12,15 +12,14 @@ import {
 export default function Home() {
   return (
     <div>
-
       <Head
-      titulo={titulos}
-      imagen={imagenData}
-      parrafo={parrafosUsar}
-      tituloIndex={0}
-      tituloIndexDos={3}
-      imagenIndex={1}
-      parrafoIndex={2}
+        titulo={titulos}
+        imagen={imagenData}
+        parrafo={parrafosUsar}
+        tituloIndex={0}
+        tituloIndexDos={3}
+        imagenIndex={1}
+        parrafoIndex={2}
       />
 
       <Cards
