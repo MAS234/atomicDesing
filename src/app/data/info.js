@@ -38,6 +38,9 @@ export const parrafosUsar = [
   },
   {
     texto:"Como ventajas se puede deducir y explica su autor, Brad Frost, “Atomic design” no es un proceso secuencial, sino un marco conceptual que nos ayuda a pensar en la interfaz de usuario como un todo cohesivo y holístico y una colección de partes, simultáneamente. Atomic design permite reducir un diseño a sus elementos fundamentales. Integra en su concepción ideas como flexibilidad, optimización, modularidad o neutralidad.Utilizar componentes reutilizables y fáciles de testear hace que la labor de generar una página sea un proceso mucho más ágil y colaborativo, evitando errores de código y repeticiones innecesarias."
+  },
+  {
+    texto:"Utilizamos Atomic Design porque nos ayuda a plantear los elementos de UI básicos con los que luego los desarrolladores tendrán que trabajar. Con esta base, después podemos ir creando fácilmente las moléculas, organismos y, finalmente, el diseño final. Nos obliga a plantear bien de inicio el “sistema de diseño”, con las tipografías, jerarquías, paleta de colores, etc., que necesitaremos."
   }
 ];
 
@@ -62,6 +65,10 @@ export const imagenData = [
   },
   {
     src:"/pruebaDesinAtomicTres.png",
+    alt:"atomicDesing"
+  },
+  {
+    src:"/pruebaDesinAtomiCuatro.png",
     alt:"atomicDesing"
   }
 ]

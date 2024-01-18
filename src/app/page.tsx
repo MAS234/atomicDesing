@@ -1,5 +1,6 @@
 import Cards from "./componets/organismos/cards";
 import Head from "./componets/organismos/head";
+import CardLarge from "./componets/moleculas/cardLarge";
 
 import {
   parrafosUsar,
@@ -42,6 +43,15 @@ export default function Home() {
         textParrafoTwo={parrafosUsar[1].texto}
         imagen={imagenData}
         route={routes}
+      />
+
+      <CardLarge
+        image={imagenData}
+        imageIndex={3}
+        parrafoIndex={4}
+        parrafo={parrafosUsar}
+        width={400}
+        height={400}
       />
     </div>
   );
