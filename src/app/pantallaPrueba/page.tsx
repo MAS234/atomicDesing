@@ -2,9 +2,16 @@ import Button from "../componets/atomic/button";
 import Head from "../componets/organismos/head";
 import CardLarge from "../componets/moleculas/cardLarge";
 
-import { titulos, parrafosUsar, imagenData } from "../data/info";
+import {
+  titulos,
+  parrafosUsar,
+  imagenData,
+  routes,
+  buttons,
+} from "../data/info";
 
 export default function page() {
+
   return (
     <div>
       <Head
@@ -24,6 +31,8 @@ export default function page() {
         parrafo={parrafosUsar}
         width={400}
         height={400}
+        valueButton={buttons[2].button}
+        routeButton={routes[1].path}
       />
 
       <div className="flex justify-center items-center m-5">

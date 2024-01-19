@@ -14,6 +14,9 @@ export const titulos = [
   },
   {
     titulo:"¿QUÉ VENTAJAS TIENE EL ATOMIC DESIGN?"
+  },
+  {
+    titulo:"Bienvenido al dashboard"
   }
 ]
 
@@ -23,6 +26,9 @@ export const buttons = [
   },
   {
     button: "Ver"
+  },
+  {
+    button: "Dashboard"
   }
 ]
 
@@ -47,6 +53,9 @@ export const parrafosUsar = [
 export const routes = [
   {
     path: "/pantallaPrueba"
+  },
+  {
+    path: "/dashboard"
   }
 ]
 
@@ -70,8 +79,25 @@ export const imagenData = [
   {
     src:"/pruebaDesinAtomiCuatro.png",
     alt:"atomicDesing"
+  },
+  {
+    src:"/atomo.png",
+    alt:"iconoAtomo"
+  },
+  {
+    src:"/molecula.png",
+    alt:"moleculaAtomo"
+  },
+  {
+    src:"/organismo.png",
+    alt:"organismoAtomo"
   }
 ]
 
+export const textoCardsDash = [
+  {
+    texto:"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, es simplemente el texto de relleno de las imprentas"
+  }
+]
 
 

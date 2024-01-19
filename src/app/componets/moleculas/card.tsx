@@ -39,7 +39,7 @@ export default function Card({ value, textButton, textButtonTwo, textParrafo, im
         ></Button>
 
         <Button
-        route={route[0].path}
+          route={route[0].path}
           value={textButtonTwo}
         ></Button>
       </div>
