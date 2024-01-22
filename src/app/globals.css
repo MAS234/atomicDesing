@@ -8,6 +8,23 @@
     color: #ffffff; /* Cambia el color del texto seleccionado */
   }
 
-.transparencia{
-  background-color: #84bdfd69;
+.fondoDash{
+  background-image: url("../../public/fondoDashboard.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
 }
+
+.transparent{
+  background-color: rgba(0, 0, 0, 0.329);
+  transition: .5s;
+}
+
+.transparent:hover{
+  background-color: #47347eaf;
+  transition: .5s;
+
+}
+

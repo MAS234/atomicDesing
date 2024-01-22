@@ -5,26 +5,22 @@ import IconoDashboard from "../atomic/iconoDashboard"
 type Props={
     titulo:string;
     parrafo:string;
-    width:number;
-    heigth:number;
     image:Array<{src:string, alt:string}>
     indexImage:number
 }
 
 export default function CardDashboard({titulo, parrafo,image, indexImage}: Props) {
     return (
-        <div className="bg-blue-400 w-96 rounded-lg h-72 p-5 shadow-lg">
+        <div className="transparent w-full md:w-80 rounded-lg md:h-auto p-3 m-5 shadow-lg">
             <TituloComun
             value={titulo}
             />
-            <div className="flex justify-center items-center gap-5">
+            <div className="flex flex-col md:flex-row justify-center items-center gap-5">
             <ParrafoDashboard
             value={parrafo}
             />
     
             <IconoDashboard
-            width={300}
-            height={300}
             image={image[indexImage]}
             />
             </div>
